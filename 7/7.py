@@ -6,8 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the weather dataset from the local file
-file_path = r"C:\Users\Ramachandra\OneDrive\Desktop\ML Lab\weather_forecast.csv"
-df = pd.read_csv(file_path)
+df = pd.read_csv('./weather_forecast.csv')
 
 # Display the first few rows of the dataset
 print(df.head())
