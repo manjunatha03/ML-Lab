@@ -11,13 +11,6 @@ import matplotlib.pyplot as plt
 # Load the dataset
 df = pd.read_csv('glass.csv')
 
-# Display basic information and statistics
-print(df.info())
-print(df.describe())
-
-# Check for missing values
-print("Missing values:\n", df.isnull().sum())
-
 # Handle missing values by imputing with median
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(strategy='median')
