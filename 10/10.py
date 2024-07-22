@@ -36,6 +36,9 @@ pc2 = X_projected[:, 1]
 plt.scatter(pc1, pc2, c=y, cmap="jet")
 plt.xlabel("Principal Component 1")
 plt.ylabel("Principal Component 2")
+plt.title("PCA of Iris Dataset (sklearn Implementation)")
+plt.show()
+
 
 #LDA
 
@@ -78,9 +81,3 @@ plt.xlabel("Linear Discriminant 1")
 plt.ylabel("Linear Discriminant 2")
 plt.title("LDA of Iris Dataset (sklearn Implementation)")
 plt.show()
-
-
-plt.title("PCA of Iris Dataset (sklearn Implementation)")
-plt.show()
-
-
